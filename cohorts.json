@@ -1,0 +1,20 @@
+[
+  {
+    "cohortId": "C11",
+    "name": "C11",
+    "createdAt": "2025-07-17T17:07:24.989Z",
+    "videoUrl": "/workspaces/gif-mosaic-test/output/C11/mosaic.webm"
+  },
+  {
+    "cohortId": "C12-large",
+    "name": "C12 Large",
+    "createdAt": "2025-07-17T17:24:06.483Z",
+    "videoUrl": "/workspaces/gif-mosaic-test/output/C12-large/mosaic.webm"
+  },
+  {
+    "cohortId": "test-cohort",
+    "name": "Test Cohort",
+    "createdAt": "2025-07-18T14:59:32.811Z",
+    "videoUrl": "/home/runner/work/git-gif-mosaic/git-gif-mosaic/output/test-cohort/mosaic.webm"
+  }
+]
