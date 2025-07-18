@@ -1,9 +1,0 @@
-import{r as n}from"./index.CVf8TyFT.js";var _={exports:{}},c={};/**
- * @license React
- * react-jsx-runtime.production.min.js
- *
- * Copyright (c) Facebook, Inc. and its affiliates.
- *
- * This source code is licensed under the MIT license found in the
- * LICENSE file in the root directory of this source tree.
- */var E=n,R=Symbol.for("react.element"),g=Symbol.for("react.fragment"),j=Object.prototype.hasOwnProperty,w=E.__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED.ReactCurrentOwner,O={key:!0,ref:!0,__self:!0,__source:!0};function v(r,e,a){var t,s={},i=null,o=null;a!==void 0&&(i=""+a),e.key!==void 0&&(i=""+e.key),e.ref!==void 0&&(o=e.ref);for(t in e)j.call(e,t)&&!O.hasOwnProperty(t)&&(s[t]=e[t]);if(r&&r.defaultProps)for(t in e=r.defaultProps,e)s[t]===void 0&&(s[t]=e[t]);return{$$typeof:R,type:r,key:i,ref:o,props:s,_owner:w.current}}c.Fragment=g;c.jsx=v;c.jsxs=v;_.exports=c;var u=_.exports;const L=({videoUrl:r,checkInterval:e=3e4})=>{const[a,t]=n.useState(r),[s,i]=n.useState(null),[o,f]=n.useState(!1),d=n.useRef(null);return n.useEffect(()=>{const p=async()=>{try{const l=(await fetch(r,{method:"HEAD"})).headers.get("Last-Modified");if(s&&l&&l!==s){f(!0);const x=new Date().getTime(),h=`${r}?t=${x}`;setTimeout(()=>{t(h),f(!1)},500)}i(l)}catch(m){console.error("Error checking for video updates:",m)}};p();const y=setInterval(p,e);return()=>clearInterval(y)},[r,e,s]),n.useEffect(()=>{d.current&&!o&&d.current.load()},[a,o]),u.jsxs("div",{className:"video-container",children:[o&&u.jsx("div",{className:"update-notification",children:u.jsx("span",{children:"New video detected! Loading..."})}),u.jsx("video",{ref:d,src:a,controls:!0,autoPlay:!0,loop:!0,muted:!0,playsInline:!0,className:`mosaic-video ${o?"updating":""}`,children:"Your browser does not support the video tag."})]})};export{L as default};
