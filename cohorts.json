@@ -1,20 +1,8 @@
 [
   {
-    "cohortId": "C11",
-    "name": "C11",
-    "createdAt": "2025-07-17T17:07:24.989Z",
-    "videoUrl": "/workspaces/gif-mosaic-test/output/C11/mosaic.webm"
-  },
-  {
-    "cohortId": "C12-large",
-    "name": "C12 Large",
-    "createdAt": "2025-07-17T17:24:06.483Z",
-    "videoUrl": "/workspaces/gif-mosaic-test/output/C12-large/mosaic.webm"
-  },
-  {
     "cohortId": "test-cohort",
     "name": "Test Cohort",
-    "createdAt": "2025-07-18T16:00:18.934Z",
-    "videoUrl": "https://ctp-presentation-media.s3.amazonaws.com/mosaics/test-cohort/mosaic-2025-07-18T16-00-18-478Z.webm"
+    "createdAt": "2025-07-18T17:25:17.670Z",
+    "videoUrl": "https://ctp-presentation-media.s3.amazonaws.com/mosaics/test-cohort/mosaic-2025-07-18T17-25-17-248Z.webm"
   }
 ]
